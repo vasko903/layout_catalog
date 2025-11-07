@@ -93,15 +93,20 @@
     border 300ms;
 
     &:hover {
-      border: 1px solid $blue-accent;
-      background: $white;
-      color: $blue-accent;
-      transform: scale(1.2);
-      z-index: 1;
+    border: 1px solid $blue-accent;
+    background: $white;
+    color: $blue-accent;
     }
 
-    &:hover .card__title {
+
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    z-index: 1;
+  }
+
+  &:hover .card__title {
       color: #34568b;
-    }
   }
 }
