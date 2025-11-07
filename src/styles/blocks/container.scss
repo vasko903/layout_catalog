@@ -1,9 +1,8 @@
-
 .container {
   padding: 50px 40px;
   display: grid;
   grid-template-columns: repeat(1, 200px);
-  row-gap: 46px;
+  gap: 46px 48px;
   justify-content: center;
 }
 
